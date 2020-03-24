@@ -6,7 +6,13 @@
     <link href="style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/cc52c698b6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<script type="text/javascript" src="1.js"></script> 
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> -->
+    <script type="text/javascript" src="1.js"></script> 
     <title>Document</title>
 </head>
 <body>
@@ -20,8 +26,8 @@
                 <div class="collapse navbar-collapse" id="menuid">
                 <div class="navbar-nav ml-auto">
                     <a class="nav-item nav-link active" href="#">Giới thiệu <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Kinh nghiệm</a>
-                    <a class="nav-item nav-link" href="#">Sản phẩm</a>
+                    <a class="nav-item nav-link kn" href="#">Kinh nghiệm</a>
+                    <a class="nav-item nav-link sp" href="#">Sản phẩm</a>
                     <a class="nav-item nav-link " href="#">Thông tin liên hệ</a>
                     <a class="nav-item nav-link " href="#">Comment</a>
                 </div>
@@ -37,13 +43,122 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus voluptates minima natus reiciendis eum quasi aliquam, labore ipsa assumenda porro.</p>
                     <a href="" class="nuthire btn btn-primary">Hợp tác</a>
                 </div>
+
+                <div class="xuong"></div>
             </div>
         </div><!--het khoitt1-->
 
-    
+        <div class="edu" id="khoiedu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 tieudeto text-center">
+                        <h1>Kinh nghiem & Quá trình học</h1>
+                    </div>
+                    <div class="col-md-4 cot1_3 text-md-right text-sm-center text-center">
+                        <h2 class="tieducap2">Quá trình <span class="dam">học</span></h2>
 
-      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+                        <div class="khoittnho text-md-right text-sm-center text-center">
+                            <h3 class="tieudecap3">Học mẫu giáo</h3>
+                            <span class="mota">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe at est libero corrupti, laudantium, hic quasi odit pariatur.</p>
+                        </div>
+                        <div class="khoittnho text-md-right text-sm-center text-center">
+                            <h3 class="tieudecap3">Học mẫu giáo</h3>
+                            <span class="mota">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe at est libero corrupti, laudantium, hic quasi odit pariatur.</p>
+                        </div>
+                        <div class="khoittnho text-md-right text-sm-center text-center">
+                            <h3 class="tieudecap3">Học mẫu giáo</h3>
+                            <span class="mota">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe at est libero corrupti, laudantium, hic quasi odit pariatur.</p>
+                        </div>
+                    </div><!--het  cot dau-->
+
+
+                    <div class="col-md-4 cot2_3">
+                        <img src="images/2.png" alt="anhlon" class="img-fluid">
+                    </div><!--het cot 2-3 -->
+
+                    <div class="col-md-4 cot3_3 text-md-left text-sm-center text-center">
+                        <h2 class="tieducap2">Quá trình <span class="dam">học</span></h2>
+                        
+                        <div class="khoittnho text-md-left text-sm-center text-center">
+                            <h3 class="tieudecap3">Học mẫu giáo</h3>
+                            <span class="mota">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe at est libero corrupti, laudantium, hic quasi odit pariatur.</p>
+                        </div>
+                        <div class="khoittnho text-md-left text-sm-center text-center">
+                            <h3 class="tieudecap3">Học mẫu giáo</h3>
+                            <span class="mota">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe at est libero corrupti, laudantium, hic quasi odit pariatur.</p>
+                        </div>
+                        <div class="khoittnho text-md-left text-sm-center text-center">
+                            <h3 class="tieudecap3">Học mẫu giáo</h3>
+                            <span class="mota">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe at est libero corrupti, laudantium, hic quasi odit pariatur.</p>
+                        </div>
+                    </div><!--het  cot cuoi-->
+
+                </div>
+            </div>
+        </div><!--het edu-->
+
+
+        <div class="edu" id="khoisp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 tieudeto text-center">
+                        <h1>Kinh nghiem & Quá trình học</h1>
+                    </div>
+                    <div class="col-md-4 cot1_3 text-md-right text-sm-center text-center">
+                        <h2 class="tieducap2">Quá trình <span class="dam">học</span></h2>
+
+                        <div class="khoittnho text-md-right text-sm-center text-center">
+                            <h3 class="tieudecap3">Học mẫu giáo</h3>
+                            <span class="mota">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe at est libero corrupti, laudantium, hic quasi odit pariatur.</p>
+                        </div>
+                        <div class="khoittnho text-md-right text-sm-center text-center">
+                            <h3 class="tieudecap3">Học mẫu giáo</h3>
+                            <span class="mota">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe at est libero corrupti, laudantium, hic quasi odit pariatur.</p>
+                        </div>
+                        <div class="khoittnho text-md-right text-sm-center text-center">
+                            <h3 class="tieudecap3">Học mẫu giáo</h3>
+                            <span class="mota">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe at est libero corrupti, laudantium, hic quasi odit pariatur.</p>
+                        </div>
+                    </div><!--het  cot dau-->
+
+
+                    <div class="col-md-4 cot2_3">
+                        <img src="images/2.png" alt="anhlon" class="img-fluid">
+                    </div><!--het cot 2-3 -->
+
+                    <div class="col-md-4 cot3_3 text-md-left text-sm-center text-center">
+                        <h2 class="tieducap2">Quá trình <span class="dam">học</span></h2>
+                        
+                        <div class="khoittnho text-md-left text-sm-center text-center">
+                            <h3 class="tieudecap3">Học mẫu giáo</h3>
+                            <span class="mota">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe at est libero corrupti, laudantium, hic quasi odit pariatur.</p>
+                        </div>
+                        <div class="khoittnho text-md-left text-sm-center text-center">
+                            <h3 class="tieudecap3">Học mẫu giáo</h3>
+                            <span class="mota">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe at est libero corrupti, laudantium, hic quasi odit pariatur.</p>
+                        </div>
+                        <div class="khoittnho text-md-left text-sm-center text-center">
+                            <h3 class="tieudecap3">Học mẫu giáo</h3>
+                            <span class="mota">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe at est libero corrupti, laudantium, hic quasi odit pariatur.</p>
+                        </div>
+                    </div><!--het  cot cuoi-->
+
+                </div>
+            </div>
+        </div><!--het edu-->
+        
+        
 </body>
 </html>
